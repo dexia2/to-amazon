@@ -1,0 +1,18 @@
+{
+    "manifest_version": 2,
+    "version": "1.0.0",
+    "name": "ToAmazon",
+    "description": "Amazonの検索Windowを開きます",
+    "icons": {
+        "128": "/image/search.png"
+    },
+    "background": {
+        "scripts": [
+            "/assets/js/background.js"
+        ]
+    },
+    "permissions": [
+        "contextMenus",
+        "tabs"
+    ]
+}
