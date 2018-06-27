@@ -1,0 +1,17 @@
+{
+  "name": "to-amazon",
+  "version": "1.0.0",
+  "description": "to-amazon",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dexia2/to-amazon.git"
+  },
+  "author": "dexia2",
+  "dependencies": {
+    "jquery": "^3.3.1"
+  }
+}

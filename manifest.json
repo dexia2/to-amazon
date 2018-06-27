@@ -11,6 +11,18 @@
             "/assets/js/background.js"
         ]
     },
+    "content_scripts": [
+        {
+            "matches": [
+                "http://*/*",
+                "https://*/*"
+            ],
+            "js": [
+                "/node_modules/jquery/dist/jquery.min.js",
+                "/assets/js/content.js"
+            ]
+        }
+    ],
     "permissions": [
         "contextMenus",
         "tabs"
