@@ -24,6 +24,7 @@
         }
     ],
     "permissions": [
+        "clipboardWrite",
         "contextMenus",
         "tabs"
     ]
