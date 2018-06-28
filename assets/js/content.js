@@ -7,7 +7,7 @@ var DEFAULT_SUBSCRIBE = 1;
 function scrapeBookInfo() {
     var title = $("#productTitle").text();
     var authors =
-        $("#bylineInfo>.author a.a-link-normal")
+        $("#bylineInfo > .author a.a-link-normal")
             .map(function () {
                 return this.textContent;
             }).get().join(",");
